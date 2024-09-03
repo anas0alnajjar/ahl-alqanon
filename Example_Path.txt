@@ -1,0 +1,1 @@
+/usr/bin/php /home/u789524392/domains/support.anas0alnajjar.com/public_html/admin/contact.php "key=0940005979"

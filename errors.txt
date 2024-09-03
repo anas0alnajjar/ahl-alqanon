@@ -1,0 +1,1139 @@
+[09-Jul-2024 05:29:04 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:29:04 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [permission_id] => 5271
+        )
+
+    [cases] => Array
+        (
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5248
+        )
+
+    [sessions] => Array
+        (
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5249
+        )
+
+    [add_old_session] => Array
+        (
+            [add] => 1
+            [permission_id] => 5250
+        )
+
+    [expenses] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5251
+        )
+
+    [expenses_sessions] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5252
+        )
+
+    [payments] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5253
+        )
+
+    [attachments] => Array
+        (
+            [read] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5254
+        )
+
+    [lawyers] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5255
+        )
+
+    [clients] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5256
+        )
+
+    [assistants] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5257
+        )
+
+    [expense_types] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5258
+        )
+
+    [courts] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5259
+        )
+
+    [case_types] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5260
+        )
+
+    [judicial_circuits] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5261
+        )
+
+    [documents] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5262
+        )
+
+    [notifications] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5263
+        )
+
+    [message_customization] => Array
+        (
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5264
+        )
+
+    [outbox] => Array
+        (
+            [read] => 1
+            [permission_id] => 5265
+        )
+
+    [roles] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5266
+        )
+
+    [logo_contact] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5267
+        )
+
+    [user_management] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5268
+        )
+
+    [adversaries] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5269
+        )
+
+    [profiles] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [add] => 1
+            [delete] => 1
+            [permission_id] => 5270
+        )
+
+)
+
+[09-Jul-2024 05:29:04 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions deleted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for control inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for cases inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for sessions inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for add_old_session inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for expenses inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for expenses_sessions inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for payments inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for attachments inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for lawyers inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for clients inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for assistants inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for expense_types inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for courts inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for case_types inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for judicial_circuits inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for documents inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for notifications inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for message_customization inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for outbox inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for roles inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for logo_contact inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for user_management inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for adversaries inserted successfully.
+[09-Jul-2024 05:29:04 Europe/Berlin] Permissions for profiles inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:30:13 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [permission_id] => 5271
+        )
+
+    [cases] => Array
+        (
+            [permission_id] => 5248
+        )
+
+    [sessions] => Array
+        (
+            [permission_id] => 5249
+        )
+
+    [add_old_session] => Array
+        (
+            [permission_id] => 5250
+        )
+
+    [expenses] => Array
+        (
+            [permission_id] => 5251
+        )
+
+    [expenses_sessions] => Array
+        (
+            [permission_id] => 5252
+        )
+
+    [payments] => Array
+        (
+            [permission_id] => 5253
+        )
+
+    [attachments] => Array
+        (
+            [permission_id] => 5254
+        )
+
+    [lawyers] => Array
+        (
+            [permission_id] => 5255
+        )
+
+    [clients] => Array
+        (
+            [permission_id] => 5256
+        )
+
+    [assistants] => Array
+        (
+            [permission_id] => 5257
+        )
+
+    [expense_types] => Array
+        (
+            [permission_id] => 5258
+        )
+
+    [courts] => Array
+        (
+            [permission_id] => 5259
+        )
+
+    [case_types] => Array
+        (
+            [permission_id] => 5260
+        )
+
+    [judicial_circuits] => Array
+        (
+            [permission_id] => 5261
+        )
+
+    [documents] => Array
+        (
+            [permission_id] => 5262
+        )
+
+    [notifications] => Array
+        (
+            [permission_id] => 5263
+        )
+
+    [message_customization] => Array
+        (
+            [permission_id] => 5264
+        )
+
+    [outbox] => Array
+        (
+            [permission_id] => 5265
+        )
+
+    [roles] => Array
+        (
+            [permission_id] => 5266
+        )
+
+    [logo_contact] => Array
+        (
+            [permission_id] => 5267
+        )
+
+    [user_management] => Array
+        (
+            [permission_id] => 5268
+        )
+
+    [adversaries] => Array
+        (
+            [permission_id] => 5269
+        )
+
+    [profiles] => Array
+        (
+            [permission_id] => 5270
+        )
+
+)
+
+[09-Jul-2024 05:30:13 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions deleted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for control inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for cases inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for sessions inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for add_old_session inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for expenses inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for expenses_sessions inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for payments inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for attachments inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for lawyers inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for clients inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for assistants inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for expense_types inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for courts inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for case_types inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for judicial_circuits inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for documents inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for notifications inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for message_customization inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for outbox inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for roles inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for logo_contact inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for user_management inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for adversaries inserted successfully.
+[09-Jul-2024 05:30:13 Europe/Berlin] Permissions for profiles inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:31:28 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [permission_id] => 5271
+        )
+
+    [cases] => Array
+        (
+            [read] => 1
+            [permission_id] => 5248
+        )
+
+    [sessions] => Array
+        (
+            [permission_id] => 5249
+        )
+
+    [add_old_session] => Array
+        (
+            [permission_id] => 5250
+        )
+
+    [expenses] => Array
+        (
+            [permission_id] => 5251
+        )
+
+    [expenses_sessions] => Array
+        (
+            [permission_id] => 5252
+        )
+
+    [payments] => Array
+        (
+            [permission_id] => 5253
+        )
+
+    [attachments] => Array
+        (
+            [permission_id] => 5254
+        )
+
+    [lawyers] => Array
+        (
+            [permission_id] => 5255
+        )
+
+    [clients] => Array
+        (
+            [permission_id] => 5256
+        )
+
+    [assistants] => Array
+        (
+            [permission_id] => 5257
+        )
+
+    [expense_types] => Array
+        (
+            [permission_id] => 5258
+        )
+
+    [courts] => Array
+        (
+            [permission_id] => 5259
+        )
+
+    [case_types] => Array
+        (
+            [permission_id] => 5260
+        )
+
+    [judicial_circuits] => Array
+        (
+            [permission_id] => 5261
+        )
+
+    [documents] => Array
+        (
+            [permission_id] => 5262
+        )
+
+    [notifications] => Array
+        (
+            [permission_id] => 5263
+        )
+
+    [message_customization] => Array
+        (
+            [permission_id] => 5264
+        )
+
+    [outbox] => Array
+        (
+            [permission_id] => 5265
+        )
+
+    [roles] => Array
+        (
+            [permission_id] => 5266
+        )
+
+    [logo_contact] => Array
+        (
+            [permission_id] => 5267
+        )
+
+    [user_management] => Array
+        (
+            [permission_id] => 5268
+        )
+
+    [adversaries] => Array
+        (
+            [permission_id] => 5269
+        )
+
+    [profiles] => Array
+        (
+            [permission_id] => 5270
+        )
+
+)
+
+[09-Jul-2024 05:31:28 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions deleted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for control inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for cases inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for sessions inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for add_old_session inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for expenses inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for expenses_sessions inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for payments inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for attachments inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for lawyers inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for clients inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for assistants inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for expense_types inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for courts inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for case_types inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for judicial_circuits inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for documents inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for notifications inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for message_customization inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for outbox inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for roles inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for logo_contact inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for user_management inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for adversaries inserted successfully.
+[09-Jul-2024 05:31:28 Europe/Berlin] Permissions for profiles inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:34:15 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [read] => 1
+            [permission_id] => 5272
+        )
+
+    [cases] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5273
+        )
+
+    [sessions] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5274
+        )
+
+    [add_old_session] => Array
+        (
+            [permission_id] => 
+        )
+
+    [expenses] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5275
+        )
+
+    [expenses_sessions] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5276
+        )
+
+    [payments] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5277
+        )
+
+    [attachments] => Array
+        (
+            [read] => 1
+            [permission_id] => 5278
+        )
+
+    [lawyers] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5279
+        )
+
+    [clients] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5280
+        )
+
+    [assistants] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5281
+        )
+
+    [expense_types] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5282
+        )
+
+    [courts] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5284
+        )
+
+    [case_types] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5285
+        )
+
+    [judicial_circuits] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5286
+        )
+
+    [documents] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5287
+        )
+
+    [notifications] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5288
+        )
+
+    [message_customization] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5289
+        )
+
+    [outbox] => Array
+        (
+            [read] => 1
+            [permission_id] => 5291
+        )
+
+    [roles] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5293
+        )
+
+    [logo_contact] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5294
+        )
+
+    [user_management] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5295
+        )
+
+    [adversaries] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5297
+        )
+
+    [profiles] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5299
+        )
+
+)
+
+[09-Jul-2024 05:34:15 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions deleted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for control inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for cases inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for sessions inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for add_old_session inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for expenses inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for expenses_sessions inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for payments inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for attachments inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for lawyers inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for clients inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for assistants inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for expense_types inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for courts inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for case_types inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for judicial_circuits inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for documents inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for notifications inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for message_customization inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for outbox inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for roles inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for logo_contact inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for user_management inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for adversaries inserted successfully.
+[09-Jul-2024 05:34:15 Europe/Berlin] Permissions for profiles inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:34:38 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [read] => 1
+            [permission_id] => 5272
+        )
+
+    [cases] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5273
+        )
+
+    [sessions] => Array
+        (
+            [read] => 1
+            [permission_id] => 5274
+        )
+
+    [add_old_session] => Array
+        (
+            [permission_id] => 5300
+        )
+
+    [expenses] => Array
+        (
+            [read] => 1
+            [permission_id] => 5275
+        )
+
+    [expenses_sessions] => Array
+        (
+            [read] => 1
+            [permission_id] => 5276
+        )
+
+    [payments] => Array
+        (
+            [read] => 1
+            [permission_id] => 5277
+        )
+
+    [attachments] => Array
+        (
+            [read] => 1
+            [permission_id] => 5278
+        )
+
+    [lawyers] => Array
+        (
+            [read] => 1
+            [permission_id] => 5279
+        )
+
+    [clients] => Array
+        (
+            [read] => 1
+            [permission_id] => 5280
+        )
+
+    [assistants] => Array
+        (
+            [read] => 1
+            [permission_id] => 5281
+        )
+
+    [expense_types] => Array
+        (
+            [read] => 1
+            [permission_id] => 5282
+        )
+
+    [courts] => Array
+        (
+            [read] => 1
+            [permission_id] => 5284
+        )
+
+    [case_types] => Array
+        (
+            [read] => 1
+            [permission_id] => 5285
+        )
+
+    [judicial_circuits] => Array
+        (
+            [read] => 1
+            [permission_id] => 5286
+        )
+
+    [documents] => Array
+        (
+            [read] => 1
+            [permission_id] => 5287
+        )
+
+    [notifications] => Array
+        (
+            [read] => 1
+            [permission_id] => 5288
+        )
+
+    [message_customization] => Array
+        (
+            [read] => 1
+            [permission_id] => 5289
+        )
+
+    [outbox] => Array
+        (
+            [read] => 1
+            [permission_id] => 5291
+        )
+
+    [roles] => Array
+        (
+            [read] => 1
+            [permission_id] => 5293
+        )
+
+    [logo_contact] => Array
+        (
+            [read] => 1
+            [permission_id] => 5294
+        )
+
+    [user_management] => Array
+        (
+            [read] => 1
+            [permission_id] => 5295
+        )
+
+    [adversaries] => Array
+        (
+            [read] => 1
+            [permission_id] => 5297
+        )
+
+    [profiles] => Array
+        (
+            [read] => 1
+            [permission_id] => 5299
+        )
+
+)
+
+[09-Jul-2024 05:34:38 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions deleted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for control inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for cases inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for sessions inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for add_old_session inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for expenses inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for expenses_sessions inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for payments inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for attachments inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for lawyers inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for clients inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for assistants inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for expense_types inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for courts inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for case_types inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for judicial_circuits inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for documents inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for notifications inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for message_customization inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for outbox inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for roles inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for logo_contact inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for user_management inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for adversaries inserted successfully.
+[09-Jul-2024 05:34:38 Europe/Berlin] Permissions for profiles inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:35:04 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [read] => 1
+            [permission_id] => 5272
+        )
+
+    [cases] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5273
+        )
+
+    [sessions] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5274
+        )
+
+    [add_old_session] => Array
+        (
+            [permission_id] => 5300
+        )
+
+    [expenses] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5275
+        )
+
+    [expenses_sessions] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5276
+        )
+
+    [payments] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5277
+        )
+
+    [attachments] => Array
+        (
+            [read] => 1
+            [permission_id] => 5278
+        )
+
+    [lawyers] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5279
+        )
+
+    [clients] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5280
+        )
+
+    [assistants] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5281
+        )
+
+    [expense_types] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5282
+        )
+
+    [courts] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5284
+        )
+
+    [case_types] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5285
+        )
+
+    [judicial_circuits] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5286
+        )
+
+    [documents] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5287
+        )
+
+    [notifications] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5288
+        )
+
+    [message_customization] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5289
+        )
+
+    [outbox] => Array
+        (
+            [read] => 1
+            [permission_id] => 5291
+        )
+
+    [roles] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5293
+        )
+
+    [logo_contact] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5294
+        )
+
+    [user_management] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5295
+        )
+
+    [adversaries] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5297
+        )
+
+    [profiles] => Array
+        (
+            [read] => 1
+            [write] => 1
+            [permission_id] => 5299
+        )
+
+)
+
+[09-Jul-2024 05:35:04 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions deleted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for control inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for cases inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for sessions inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for add_old_session inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for expenses inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for expenses_sessions inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for payments inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for attachments inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for lawyers inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for clients inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for assistants inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for expense_types inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for courts inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for case_types inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for judicial_circuits inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for documents inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for notifications inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for message_customization inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for outbox inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for roles inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for logo_contact inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for user_management inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for adversaries inserted successfully.
+[09-Jul-2024 05:35:04 Europe/Berlin] Permissions for profiles inserted successfully.
+[09-Jul-2024 17:23:36 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[09-Jul-2024 17:23:36 Europe/Berlin] Starting deleteClientData for client_id: 251
+[09-Jul-2024 17:23:36 Europe/Berlin] Deleted from clients for client_id: 251
+[09-Jul-2024 17:23:36 Europe/Berlin] Deleted from events for client_id: 251
+[09-Jul-2024 17:23:36 Europe/Berlin] Deleted from documents for client_id: 251
+[09-Jul-2024 17:23:36 Europe/Berlin] -----------------Ending deleteClientData-----------------
+[09-Jul-2024 18:45:03 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[09-Jul-2024 18:45:03 Europe/Berlin] Starting deleteClientData for client_id: 252
+[09-Jul-2024 18:45:03 Europe/Berlin] Deleted from clients for client_id: 252
+[09-Jul-2024 18:45:03 Europe/Berlin] Deleted from events for client_id: 252
+[09-Jul-2024 18:45:03 Europe/Berlin] Deleted from documents for client_id: 252
+[09-Jul-2024 18:45:03 Europe/Berlin] -----------------Ending deleteClientData-----------------
+[14-Jul-2024 14:14:05 Europe/Berlin] -----------------Ending deleteClientData-----------------
+[14-Jul-2024 14:14:05 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[14-Jul-2024 14:14:05 Europe/Berlin] Starting deleteClientData for client_id: 260
+[14-Jul-2024 14:14:05 Europe/Berlin] Deleted from clients for client_id: 260
+[14-Jul-2024 14:14:05 Europe/Berlin] Deleted from events for client_id: 260
+[14-Jul-2024 14:14:05 Europe/Berlin] Deleted from documents for client_id: 260
+[14-Jul-2024 14:14:07 Europe/Berlin] -----------------Ending deleteClientData-----------------
+[14-Jul-2024 14:14:07 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[14-Jul-2024 14:14:07 Europe/Berlin] Starting deleteClientData for client_id: 259
+[14-Jul-2024 14:14:07 Europe/Berlin] Deleted from clients for client_id: 259
+[14-Jul-2024 14:14:07 Europe/Berlin] Deleted from events for client_id: 259
+[14-Jul-2024 14:14:07 Europe/Berlin] Deleted from documents for client_id: 259
+[14-Jul-2024 16:43:03 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[14-Jul-2024 16:43:03 Europe/Berlin] Starting deleteClientData for client_id: 263
+[14-Jul-2024 16:43:03 Europe/Berlin] Deleted from clients for client_id: 263
+[14-Jul-2024 16:43:03 Europe/Berlin] Deleted from events for client_id: 263
+[14-Jul-2024 16:43:03 Europe/Berlin] Deleted from documents for client_id: 263
+[14-Jul-2024 16:43:03 Europe/Berlin] -----------------Ending deleteClientData-----------------
+[14-Jul-2024 17:46:17 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[14-Jul-2024 17:46:17 Europe/Berlin] Starting deleteClientData for client_id: 266
+[14-Jul-2024 17:46:17 Europe/Berlin] Deleted from clients for client_id: 266
+[14-Jul-2024 17:46:17 Europe/Berlin] Deleted from events for client_id: 266
+[14-Jul-2024 17:46:17 Europe/Berlin] Deleted from documents for client_id: 266
+[14-Jul-2024 17:46:17 Europe/Berlin] -----------------Ending deleteClientData-----------------
+[14-Jul-2024 17:46:34 Europe/Berlin] -----------------Starting deleteClientData-----------------
+[14-Jul-2024 17:46:34 Europe/Berlin] Starting deleteClientData for client_id: 265
+[14-Jul-2024 17:46:34 Europe/Berlin] Deleted from clients for client_id: 265
+[14-Jul-2024 17:46:34 Europe/Berlin] Deleted from events for client_id: 265
+[14-Jul-2024 17:46:34 Europe/Berlin] Deleted from documents for client_id: 265
+[14-Jul-2024 17:46:34 Europe/Berlin] -----------------Ending deleteClientData-----------------

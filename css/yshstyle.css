@@ -1,0 +1,71 @@
+body{
+background-color:#cfccc0 !important;
+
+}
+.card{
+    
+    color:#cfccc0 !important;
+ /*  background-color:#ffffff !important;*/
+
+    background-color:#272c3f !important;
+}
+
+h5{
+    color: #cfccc0 !important;
+}
+
+.card:hover .card-body {
+    
+    color:#272c3f !important;
+    background-color:#ffffff !important;
+/*   background-color:#cfccc0 !important;*/
+
+}
+
+.badge {
+    
+background-color:#cfccc0 !important;  
+color:#272c3f !important;
+}
+
+a.navbar-brand > img{
+width: 75px;    
+height:75px;
+}
+.navbar .navbar-expand-lg .navbar-dark .bg-dark > div .container-fluid{
+    background-color:#272c3f !important;
+    
+}
+
+.navbar-nav .nav-item {
+   text-align: right !important;
+}
+.form-w{
+    background-color: #ffffff !important;
+}    
+*{
+      direction: rtl !important;
+    }
+.dataTables_paginate .paging_simple_numbers{
+    background-color:#cfccc0 !important;  
+    color:#272c3f !important;
+}
+openLawyerModal
+{
+    color:#cfccc0 !important;
+}
+openLawyerModal:hover
+{
+    color:#272c3f !important;
+}
+.card-title{
+  color:#cfccc0 !important;
+}
+.card-title:hover{
+  color:#272c3f !important;
+  background-color:#ffffff !important;
+}
+.custom-card{
+       background-color:#272c3f !important;
+ 
+}

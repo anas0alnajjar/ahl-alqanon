@@ -1,0 +1,76 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+#cases td:not(:first-of-type) {
+    min-width: 12.1rem;
+}
+
+*{
+    direction: rtl;
+}
+.dropdown-item nav-link{
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+margin: 2px 0;
+white-space: nowrap;
+justify-content: flex-end;
+direction: ltr;
+}
+/* CSS for fixed search bar and pagination */
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_paginate {
+position: sticky;
+top: 0;
+z-index: 100;
+background-color: #fff;
+left: 0;
+right: 0;
+}
+
+.dataTables_wrapper .dataTables_filter {
+left: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+right: 0;
+padding: 10px;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+font-weight: normal;
+white-space: nowrap;
+text-align: right;
+}
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child {
+padding-right: 0;
+max-height: 500px;
+overflow: auto;
+scroll-behavior: smooth;
+scrollbar-width: thin;
+}
+/* CSS for fixed column headings */
+thead {
+position: sticky;
+top: 0;
+z-index: 100;
+background-color: #fff;
+}
+
+/* Hide the original headers when they become sticky */
+thead.sticky-not-scrolled {
+visibility: hidden;
+}
+#cases td {
+user-select: none; /* Prevent text selection */
+}
+
+@media screen and (max-width: 768px) {
+    .dataTables_wrapper .dataTables_filter,
+    .dataTables_wrapper .dataTables_paginate {
+    padding: 10px;
+    }
+}
+
+::selection {
+    background-color: #f0f1f2; /* لون خلفية التحديد */
+    color: #bb2d3b; /* لون النص */
+}

@@ -1,0 +1,358 @@
+[09-Jul-2024 05:04:22 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:04:22 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [read] => 1
+        )
+
+    [cases] => Array
+        (
+            [read] => 1
+        )
+
+    [sessions] => Array
+        (
+            [read] => 1
+        )
+
+    [add_old_session] => Array
+        (
+            [add] => 1
+        )
+
+    [expenses] => Array
+        (
+            [read] => 1
+        )
+
+    [expenses_sessions] => Array
+        (
+            [read] => 1
+        )
+
+    [payments] => Array
+        (
+            [read] => 1
+        )
+
+    [attachments] => Array
+        (
+            [read] => 1
+        )
+
+    [lawyers] => Array
+        (
+            [read] => 1
+        )
+
+    [clients] => Array
+        (
+            [read] => 1
+        )
+
+    [assistants] => Array
+        (
+            [read] => 1
+        )
+
+    [expense_types] => Array
+        (
+            [read] => 1
+        )
+
+    [courts] => Array
+        (
+            [read] => 1
+        )
+
+    [case_types] => Array
+        (
+            [read] => 1
+        )
+
+    [judicial_circuits] => Array
+        (
+            [read] => 1
+        )
+
+    [documents] => Array
+        (
+            [read] => 1
+        )
+
+    [notifications] => Array
+        (
+            [read] => 1
+        )
+
+    [message_customization] => Array
+        (
+            [read] => 1
+        )
+
+    [outbox] => Array
+        (
+            [read] => 1
+        )
+
+    [roles] => Array
+        (
+            [read] => 1
+        )
+
+    [logo_contact] => Array
+        (
+            [read] => 1
+        )
+
+    [user_management] => Array
+        (
+            [read] => 1
+        )
+
+    [adversaries] => Array
+        (
+            [read] => 1
+        )
+
+    [profiles] => Array
+        (
+            [read] => 1
+        )
+
+)
+
+[09-Jul-2024 05:04:22 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:04:22 Europe/Berlin] English page names for deletion: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+    [16] => 
+    [17] => 
+    [18] => 
+    [19] => 
+    [20] => 
+    [21] => 
+    [22] => 
+    [23] => 
+)
+
+[09-Jul-2024 05:04:22 Europe/Berlin] Permissions deletion failed or no permissions to delete.
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: control
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: cases
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: sessions
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: add_old_session
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: expenses
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: expenses_sessions
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: payments
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: attachments
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: lawyers
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: clients
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: assistants
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: expense_types
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: courts
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: case_types
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: judicial_circuits
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: documents
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: notifications
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: message_customization
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: outbox
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: roles
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: logo_contact
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: user_management
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: adversaries
+[09-Jul-2024 05:04:22 Europe/Berlin] Page name not found for: profiles
+[09-Jul-2024 05:05:12 Europe/Berlin] -----------------Starting Role Update-----------------
+[09-Jul-2024 05:05:12 Europe/Berlin] Received Data: role_name=يجب الاعتماد عليها, office_id=7, role_id=23, permissions=Array
+(
+    [control] => Array
+        (
+            [read] => 1
+        )
+
+    [cases] => Array
+        (
+            [read] => 1
+        )
+
+    [sessions] => Array
+        (
+            [read] => 1
+        )
+
+    [add_old_session] => Array
+        (
+            [add] => 1
+        )
+
+    [expenses] => Array
+        (
+            [read] => 1
+        )
+
+    [expenses_sessions] => Array
+        (
+            [read] => 1
+        )
+
+    [payments] => Array
+        (
+            [read] => 1
+        )
+
+    [attachments] => Array
+        (
+            [read] => 1
+        )
+
+    [lawyers] => Array
+        (
+            [read] => 1
+        )
+
+    [clients] => Array
+        (
+            [read] => 1
+        )
+
+    [assistants] => Array
+        (
+            [read] => 1
+        )
+
+    [expense_types] => Array
+        (
+            [read] => 1
+        )
+
+    [courts] => Array
+        (
+            [read] => 1
+        )
+
+    [case_types] => Array
+        (
+            [read] => 1
+        )
+
+    [judicial_circuits] => Array
+        (
+            [read] => 1
+        )
+
+    [documents] => Array
+        (
+            [read] => 1
+        )
+
+    [notifications] => Array
+        (
+            [read] => 1
+        )
+
+    [message_customization] => Array
+        (
+            [read] => 1
+        )
+
+    [outbox] => Array
+        (
+            [read] => 1
+        )
+
+    [roles] => Array
+        (
+            [read] => 1
+        )
+
+    [logo_contact] => Array
+        (
+            [read] => 1
+        )
+
+    [user_management] => Array
+        (
+            [read] => 1
+        )
+
+    [adversaries] => Array
+        (
+            [read] => 1
+        )
+
+    [profiles] => Array
+        (
+            [read] => 1
+        )
+
+)
+
+[09-Jul-2024 05:05:12 Europe/Berlin] Role update failed.
+[09-Jul-2024 05:05:12 Europe/Berlin] English page names for deletion: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+    [16] => 
+    [17] => 
+    [18] => 
+    [19] => 
+    [20] => 
+    [21] => 
+    [22] => 
+    [23] => 
+)
+
+[09-Jul-2024 05:05:12 Europe/Berlin] Permissions deletion failed or no permissions to delete.
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: control
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: cases
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: sessions
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: add_old_session
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: expenses
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: expenses_sessions
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: payments
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: attachments
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: lawyers
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: clients
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: assistants
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: expense_types
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: courts
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: case_types
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: judicial_circuits
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: documents
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: notifications
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: message_customization
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: outbox
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: roles
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: logo_contact
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: user_management
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: adversaries
+[09-Jul-2024 05:05:12 Europe/Berlin] Page name not found for: profiles

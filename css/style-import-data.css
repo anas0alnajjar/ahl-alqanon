@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+.dropdown-item nav-link{
+    text-align: right;
+}
+.table-responsive {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.n-table th,
+.n-table td {
+    vertical-align: middle;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-group {
+    margin-bottom: 15px;
+}
+
+/* Additional Styling */
+.file-input {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.file-input input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-input:hover {
+    background-color: #0056b3;
+}
+
+
+::selection {
+    background-color: #f0f1f2; /* لون خلفية التحديد */
+    color: #bb2d3b; /* لون النص */
+}

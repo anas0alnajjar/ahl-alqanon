@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.hidden-by-default {
+	display: none !important;
+	
+}
+
+
+
+.form-control:disabled {
+	background-color: white !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+      color: #cfccc0;/* لون النص */
+    /* color: #ff0000;  لون النص */
+    
+   /* color: #ffffff;  لون النص */
+}
+
+.navbar-nav {
+    padding-right: 5px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #cfccc0; /* لون النص عند التحويم أو التركيز */
+    background-color: rgba(255, 255, 255, 0.1); /* لون الخلفية */
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #cfccc0; /* لون النص للعنصر المحدد */
+    background-color: rgba(255, 255, 255, 0.2); /* لون الخلفية للعنصر المحدد */
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item,
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link {
+    text-align: right;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu {
+    background-color: #272c3f; /* لون الخلفية للقائمة السحبية */
+    border-color: #cfccc0; /* لون الحدود */
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+    color: #cfccc0; /* لون النص للعناصر في القائمة السحبية */
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:focus {
+    color: #cfccc0; /* لون النص عند التحويم أو التركيز على العنصر */
+    background-color: rgba(255, 255, 255, 0.1); /* لون الخلفية عند التحويم أو التركيز على العنصر */
+}
+
+@media (max-width: 992px) {
+    .navbar-nav .nav-item {
+        text-align: center; /* محاذاة النص إلى الوسط للشاشات الصغيرة */
+    }
+    .navbar-nav .nav-link {
+        white-space: nowrap; /* منع انكسار النص */
+    }
+    .navbar-nav .dropdown-menu {
+        text-align: center; /* محاذاة النص إلى الوسط للقوائم السحبية */
+    }
+}
+
+*,
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; 
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.black-fill {
+	background: rgba(0,0,0, 0.7);
+	min-height: 100vh;
+}
+#homeNav {
+	background: rgba(255,255,255, 0.5) !important;
+}
+.welcome-text {
+	min-height: 80vh;
+}
+.welcome-text img {
+	width: 100px;
+}
+.welcome-text h4 {
+	color: #eee;
+	font-size: 51px;
+	font-family:  "Cairo", sans-serif;
+	text-align: center;
+
+}
+.welcome-text p {
+	color: #222;
+	background: rgba(255,255,255, 0.5);
+	padding: 5px;
+	border-radius: 4px;
+}
+#about {
+	min-height: 100vh;
+}
+#about .card-1{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#about .card-1 h5{
+	font-family: "Cairo", sans-serif;
+	font-size: 28px;
+}
+
+#ask-join {
+	min-height: 100vh;
+}
+#ask-join form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#ask-join form h3 {
+	text-align: center;
+	font-family: "Cairo", sans-serif;
+}
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: "Cairo", sans-serif;
+}
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 50px;
+}
+.w-450 {
+	max-width: 450px !important;
+}
+.n-table {
+	min-width: 100%;
+}
+.form-w {
+	min-width: 100%;
+	width: 100%;
+}
+
+
+
+
+	/* تنسيق الجدول للشاشات الصغيرة */
+	@media screen and (max-width: 767px) {
+		.table-responsive {
+			overflow-x: auto;
+		}
+		.table-responsive table {
+			width: 100%;
+			max-width: 100%;
+		}
+		.table-responsive .table-bordered th,
+		.table-responsive .table-bordered td {
+			white-space: nowrap;
+		}
+		.table-responsive th,
+		.table-responsive td {
+			padding: 0.5rem;
+			vertical-align: top;
+			border-top: 1px solid #dee2e6;
+		}
+		.table-responsive th {
+			font-weight: bold;
+		}
+		.table-responsive thead th {
+			vertical-align: bottom;
+		}}
+
+
+		::selection {
+			background-color: #f0f1f2; /* لون خلفية التحديد */
+			color: #bb2d3b; /* لون النص */
+		}
+
+		.navbar-nav .nav-link {
+			display: flex;
+			align-items: center;
+		  }
+		  .navbar-nav .nav-link i {
+			margin-left: 8px;
+		  }
+
+
+
+		  .fc-icon, .fc-toolbar .fc-center {
+			display: inline-block;
+			font-weight: 900;
+			font-family: 'Cairo';
+			font-size: 1.5rem;
+		}
+
+ .nav-item {
+    position: relative;
+  }
+  #notification-badge {
+    position: absolute;
+    top: 4px;
+    left: -10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    background-color: #ff3860;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    opacity:0.6;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    min-height: 20px;
+    line-height: 1;
+    transform: translate(50%, -50%);
+  }
+  /* .nav-link {
+    color: white;
+    position: relative;
+    padding-right: 20px;
+  }
+  .nav-link:hover {
+    color: #ff3860;
+  } */
+
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+        #notification-badge {
+        font-size: 10px;
+        padding: 1.5px 1.5px;
+        top: 5px;
+        left: -22px;
+        min-width: 20px;
+        min-height: 20px;
+        opacity: 1;
+    }
+    .nav-link {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    #notification-badge {
+      font-size: 6px;
+      padding: 0.5px 3px;
+      top: 0;
+      left: -6px;
+      min-width: 20px;
+      min-height: 20px;
+    }
+    .nav-link {
+      font-size: 12px;
+    }
+  }
+  
+  .btn-light {
+    background-color: #272c3f !important; /* لون الخلفية للزر secondary */
+    color: #fff !important;              /* لون النص للزر secondary */
+    border-color: #272c3f !important;    /* لون الحدود للزر secondary */
+}
+
+.btn-light:hover {
+    background-color: #272c3f !important; /* لون الخلفية عند التمرير للزر secondary */
+    color: #fff !important;               /* لون النص عند التمرير للزر secondary */
+    border-color: #272c3f !important;     /* لون الحدود عند التمرير للزر secondary */
+}
+
+#contaner-chart{
+	min-height: 500px !important;
+}
+#chart-container {
+    position: relative;
+    height: 50vh !important;
+    width: 100%;
+    margin-bottom: 10px !important;
+
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* للتأكد من ظهور الأيقونة فوق العناصر الأخرى */
+}
+
+.floating-button .btn {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button .btn i {
+    font-size: 24px;
+}
+
+a.navbar-brand > img {
+    width: 75px;
+    height: 75px;
+}
+
+.custom-card, .text-percentage{
+  color:#cfccc0 !important;
+  /*  background-color:#ffffff !important;*/
+ 
+     background-color:#272c3f !important;
+}
+
+.text-percentage {
+  margin-right: 5px;
+}
+

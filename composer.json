@@ -1,0 +1,12 @@
+{
+    "name": "user/public_html-new",
+    "autoload": {
+        "psr-4": {
+            "User\\PublicHtmlNew\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1",
+        "psr/simple-cache": "^3.0"
+    }
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*,
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; 
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.dropdown-item nav-link{
+    text-align: right;
+}
+
+*{
+    direction: rtl;
+}
+.w-450 {
+	max-width: 450px !important;
+}
+h1 {
+    text-align: center;
+}
+
+.cases-container {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.case {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Change to column direction */
+    align-items: flex-start; /* Align items to the start */
+    padding-right: 20px; /* Added padding to the right */
+}
+
+.case:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.case-icon {
+    margin-right: 10px;
+}
+
+
+.case-details {
+    display: none;
+    margin-left: 20px;
+}        
+.case-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left; /* Align title to the left */
+}
+
+.case-status {
+    color: green; /* Set color for status */
+    margin-right: auto; /* Move the status to the right */
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-info {
+    margin: 0 10px;
+}
+
+.pagination-arrow {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+::selection {
+    background-color: #f0f1f2; /* لون خلفية التحديد */
+    color: #bb2d3b; /* لون النص */
+}
