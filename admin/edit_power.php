@@ -137,7 +137,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role']) && $_SESSION['role'
         'logo_contact' => 'اعدادات الاتصال',
         'import' => 'استيراد البيانات',
         'user_management' => 'إدارة المستخدمين',
-        'calendar' => 'التقويم',
+        'calendar' => 'الأجندة',
         'events' => 'الأحداث',
     ];
 

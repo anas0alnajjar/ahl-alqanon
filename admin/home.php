@@ -16,6 +16,7 @@ if (isset($_SESSION['admin_id']) &&
         
 
         include "../DB_connection.php";
+        include '../language.php'; 
         include "logo.php";
         foreach ($tables as $table => $data) {
             $sql = "SELECT COUNT(*) AS count FROM $table";
@@ -158,9 +159,9 @@ a {
                 <a href="cases.php">
                     <div class="card-body">
                         <i class="fa fa-balance-scale card-icon"></i>
-                        <h5 class="card-title">القضايا</h5>
+                        <h5 class="card-title"><?= __('cases') ?></h5>
                         <span class="badge bg-primary rounded-pill">
-                            <i class="fas fa-balance-scale"></i> <?=$tableCounts['cases']?> قضايا
+                            <i class="fas fa-balance-scale"></i> <?=$tableCounts['cases']?> <?= __('cases') ?>
                         </span>
                     </div>
                     </a>

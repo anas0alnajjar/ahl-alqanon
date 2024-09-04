@@ -153,6 +153,18 @@
                         </ul>
                     </li>
                 <?php endif; ?>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navLinks">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLanguages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-language"></i> اللغة
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownLanguages">
+                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('ar')">العربية</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                    </ul>
+                </li>
+            </ul>
                 <li class="nav-item">
                     <a class="nav-link" href="../logout.php"><i class="fa fa-sign-out-alt"></i> تسجيل الخروج</a>
                 </li>
@@ -161,6 +173,23 @@
     </div>
 </nav>
 
+<script>
+function changeLanguage(lang) {
+    // إرسال طلب AJAX لتحديث اللغة في قاعدة البيانات
+    $.ajax({
+        url: '../update_language.php', // ملف PHP لتحديث اللغة
+        type: 'POST',
+        data: { language: lang },
+        success: function(response) {
+            // تحديث الصفحة بعد تغيير اللغة
+            location.reload();
+        },
+        error: function(xhr, status, error) {
+            console.error('Error updating language:', error);
+        }
+    });
+}
+</script>
 
 
 

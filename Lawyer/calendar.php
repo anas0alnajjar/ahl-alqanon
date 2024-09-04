@@ -48,7 +48,7 @@ if (
             <link rel="stylesheet" href="../css/style.css">
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>المحامي - التقويم</title>
+            <title>المحامي - الأجندة</title>
             <link rel="icon" href="../img/<?= $setting['logo'] ?>">
 
 
@@ -222,14 +222,14 @@ if (
                     }
                 }
 
-                /* إعدادات التقويم للشاشة الكبيرة */
+                /* إعدادات الأجندة للشاشة الكبيرة */
                 #calendar-container {
                     max-height: 600px;
                     overflow-y: auto;
                     overflow-x: hidden;
                 }
 
-                /* إعدادات التقويم للشاشة الصغيرة */
+                /* إعدادات الأجندة للشاشة الصغيرة */
                 @media (max-width: 768px) {
                     #calendar-container {
                         max-height: none;

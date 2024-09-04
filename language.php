@@ -6,23 +6,24 @@ if (session_status() == PHP_SESSION_NONE) { session_start(); }
 // تعريف النصوص للغات المختلفة، يمكن إضافة المزيد من اللغات هنا
 $texts = [
     'en' => [
-        'welcome' => 'Welcome to our website!',
+        'cases' => 'Cases',
         'description' => 'This is the English version of the website.',
     ],
     'ar' => [
-        'welcome' => 'مرحبًا بك في موقعنا!',
+        'cases' => 'قضايا',
         'description' => 'هذا هو النسخة العربية من الموقع.',
     ],
     // لإضافة لغة جديدة، يمكنك إضافة مدخل هنا
     'fr' => [
-        'welcome' => 'Bienvenue sur notre site!',
+        'cases' => 'Problèmes',
         'description' => 'Ceci est la version française du site.',
     ],
 ];
 
 // التحقق من الجلسة وتحديد الدور واللغة
+// التحقق من الجلسة وتحديد الدور واللغة
 $role = $_SESSION['role'] ?? null;
-$userId = $_SESSION['user_id'] ?? null;
+$userId = $_SESSION['user_id'] ?? ($_SESSION['admin_id'] ?? null); // التعامل مع كل من user_id و admin_id
 $language = 'en'; // اللغة الافتراضية
 
 if ($role && $userId) {
@@ -47,8 +48,8 @@ if ($role && $userId) {
             die('دور غير معروف.');
     }
 
-    // جلب اللغة من قاعدة البيانات
-    $stmt = $pdo->prepare($sql);
+    // جلب اللغة من قاعدة البيانات باستخدام $conn بدلاً من $pdo
+    $stmt = $conn->prepare($sql);
     $stmt->execute([$userId]);
     $userData = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -65,4 +66,3 @@ function __($key) {
     global $currentTexts;
     return $currentTexts[$key] ?? $key; // إذا لم يتم العثور على النص، يتم إرجاع المفتاح كما هو
 }
-

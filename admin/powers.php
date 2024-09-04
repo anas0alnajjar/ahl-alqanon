@@ -273,7 +273,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role']) && $_SESSION['role'
                                     <td><input type="checkbox" class="form-check-input" id="sessions_delete" name="permissions[sessions][delete]" value="1"></td>
                                 </tr>
                                 <tr>
-                                    <td>التقويم</td>
+                                    <td>الأجندة</td>
                                     <td><input type="checkbox" class="form-check-input" id="calendar_read" name="permissions[calendar][read]" value="1"></td>
                                     <td><input type="checkbox" class="form-check-input" id="calendar_write" name="permissions[calendar][write]" value="1"></td>
                                     <td><input type="checkbox" class="form-check-input" id="calendar_add" name="permissions[calendar][add]" value="1"></td>

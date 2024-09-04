@@ -738,7 +738,7 @@ if (
                                 style="overflow: auto;scrollbar-width: none !important;">
 
                                 <div class="card-header flex justify-between items-center bg-blue-600 text-white px-4 py-2">
-                                    <h3 class="card-title">التقويم</h3>
+                                    <h3 class="card-title">الأجندة</h3>
                                     <div class="card-tools">
                                         <button type="button" class="btn btn-tool text-white" data-lte-toggle="card-collapse">
                                             <i data-lte-icon="expand" class="bi bi-plus-lg"></i>
