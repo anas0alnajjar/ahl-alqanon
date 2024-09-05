@@ -57,11 +57,6 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
         <!-- Links For Documents -->
         <script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
 
-    
-
-
-
-
     <style>
             #container {
                 width: 100%;

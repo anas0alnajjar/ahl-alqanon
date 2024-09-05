@@ -239,7 +239,11 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             
             </div>
             <textarea id="hiddenTextarea" style="display:none;"></textarea>
-
+            
+            <div class="mt-3">
+                <label class="form-label">الملاحظات</label>
+                <textarea class="form-control" name="notes" id="notes"><?=$document['notes']?></textarea>
+            </div>
 
             <input type="hidden" name="document_id" value="<?=$document['document_id']?>">
             <div class="row">

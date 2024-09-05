@@ -112,6 +112,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
     <?php include "inc/navbar.php"; ?>
     <div class="container mt-5" style="direction: rtl;">
         <a href="documents.php" class="btn btn-dark">الرجوع</a>
+        <a href="javascript:history.back()" class="btn btn-dark"> الصفحة السابقة</a>
         <form method="post" class="shadow p-3 mt-5 form-w" action="">
             <i style="float:left;cursor: pointer;" id="directionIcon" class="fa fa-align-right"></i>
             <?php if (isset($_GET['error'])) { ?>
@@ -158,8 +159,22 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
                 <div style="text-align: justify; overflow-x: auto; width:100%; scrollbar-width: thin;" id="editor" class="mt-3">
                     <div class="document-title"><?=$document['title']?></div>
                     <?=$document['content']?>
+                    <?php if (!empty($document['notes'])): ?>
+                                <hr>
+                                <div class="mb-3">
+                                    <label class="form-label">الملاحظات:</label>
+                                    <?= $document['notes'] ?>
+                                </div>
+                            <?php endif; ?>
                 </div>
             </div>
+            <?php if (!empty($document['notes'])): ?>
+                        <hr>
+                        <div class="mb-3">
+                            <label class="form-label">الملاحظات:</label>
+                            <?= $document['notes'] ?>
+                        </div>
+                    <?php endif; ?>
             <a href="#" id="download-pdf" class="btn btn-info btn_print">تحميل الوثيقة</a>
         </form>
     </div>

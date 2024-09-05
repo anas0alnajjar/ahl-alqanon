@@ -1025,7 +1025,6 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
                 <th scope="row"><?=$i?></th>
                 <td><a href="document-view.php?document_id=<?=$row_document['document_id']?>"><?=$row_document['title']?></a></td>
                 <td>
-                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#documentModal" data-id="<?=$row_document['document_id']?>">عرض</button>    
                     <?php if ($pages['documents']['write']) : ?>
                         <a href="document-edit.php?document_id=<?=$row_document['document_id']?>" class="btn btn-success">تعديل</a>
                     <?php endif; ?>
@@ -1106,7 +1105,10 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
 
                             <textarea id="hiddenTextarea" style="display:none;"></textarea>
                         </div>   
-
+                        <div class="mt-3 mb-3">
+                            <label class="form-label">الملاحظات</label>
+                            <textarea class="form-control" name="notes_for_doc" id="notes_for_doc" placeholder="الملاحظات"></textarea>
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">

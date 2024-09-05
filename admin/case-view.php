@@ -994,7 +994,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
                 <th scope="row"><?=$i?></th>
                 <td><a href="document-view.php?document_id=<?=$row_document['document_id']?>"><?=$row_document['title']?></a></td>
                 <td>
-                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#documentModal" data-id="<?=$row_document['document_id']?>">عرض</button>    
+                    <!-- <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#documentModal" data-id="<?=$row_document['document_id']?>">عرض</button>     -->
                     <a href="document-edit.php?document_id=<?=$row_document['document_id']?>" class="btn btn-success">تعديل</a>
                     <button id="#delete-doc" type='button' class='btn btn-danger delete-doc' data-document_id='<?= $row_document['document_id'] ?>'>حذف</button>
 
