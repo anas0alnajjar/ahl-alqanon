@@ -238,6 +238,10 @@
         </div>
 
         <textarea id="hiddenTextarea" style="display:none;"></textarea>
+        <div class="mt-3 mb-3">
+            <label for="form-label mb-2 mt-2">الملاحظات</label>
+            <textarea id="notes" name="notes" class="form-control"></textarea>
+        </div>
 
         <div class="row">
             <div class="col-md-6 mb-3">
