@@ -22,7 +22,6 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             $client_name = $_POST['client_name'];
             $document_title = $_POST['document_title'];
             $office_id = $_POST['office_id'];
-            $notes = $_POST['notes'];
             $data = 'content='.$content.'&document_title='.$document_title.'&lawer_name='.$lawer_name.'&client_name='.$client_name.'&office_id='.$office_id;
             
             if (empty($content) || empty($lawer_name) || empty($client_name) || empty($document_title)) {
@@ -50,11 +49,11 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             }
 
             // استعداد الاستعلام
-            $sql  = "INSERT INTO documents(title, content, client_id, lawyer_id, attachments, office_id, notes) VALUES(?,?,?,?,?,?, ?)";
+            $sql  = "INSERT INTO documents(title, content, client_id, lawyer_id, attachments, office_id) VALUES(?,?,?,?,?,?)";
             $stmt = $conn->prepare($sql);
 
             // تنفيذ الاستعلام
-            $stmt->execute([$document_title, $content, $client_name, $lawer_name, $attachments_name, $office_id, $notes]);
+            $stmt->execute([$document_title, $content, $client_name, $lawer_name, $attachments_name, $office_id]);
 
             $sm = "تم حفظ المستند بنجاح";
             header("Location: ../document-add.php?success=$sm");

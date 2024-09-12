@@ -12,19 +12,19 @@ if (isset($_POST['language']) && isset($_SESSION['role']) && (isset($_SESSION['u
     switch ($role) {
         case 'Admin':
         case 'Admins':
-            $sql = "UPDATE admin SET lang = ? WHERE admin_id = ?";
+            $sql = "UPDATE admin SET language_id = ? WHERE admin_id = ?";
             break;
         case 'Client':
-            $sql = "UPDATE clients SET lang = ? WHERE client_id = ?";
+            $sql = "UPDATE clients SET language_id = ? WHERE client_id = ?";
             break;
         case 'Helper':
-            $sql = "UPDATE helpers SET lang = ? WHERE id = ?";
+            $sql = "UPDATE helpers SET language_id = ? WHERE id = ?";
             break;
         case 'Lawyer':
-            $sql = "UPDATE lawyer SET lang = ? WHERE lawyer_id = ?";
+            $sql = "UPDATE lawyer SET language_id = ? WHERE lawyer_id = ?";
             break;
         case 'Managers':
-            $sql = "UPDATE managers_office SET lang = ? WHERE id = ?";
+            $sql = "UPDATE managers_office SET lanuage_id = ? WHERE id = ?";
             break;
         default:
             echo 'دور غير معروف.';
@@ -34,6 +34,7 @@ if (isset($_POST['language']) && isset($_SESSION['role']) && (isset($_SESSION['u
     // تحديث اللغة في قاعدة البيانات
     $stmt = $conn->prepare($sql);
     if ($stmt->execute([$language, $userId])) {
+        unset($_SESSION['lang_id']);
         echo 'تم تحديث اللغة بنجاح';
     } else {
         echo 'فشل في تحديث اللغة';

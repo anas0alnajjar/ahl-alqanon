@@ -19,8 +19,8 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             $lawyer_id = $_POST['lawyer_id'];
             $content = $_POST['content'];
             $document_id = $_POST['document_id'];
-            $notes = $_POST['notes'];
             $office_id = $_POST['office_id'];
+            $notes = $_POST['notes'];
 
             $data = 'document_id='.$document_id;
 
@@ -32,10 +32,10 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             } else {
                 // تحديث العنوان، معرف الموكل، معرف المحامي، والمحتوى
                 $sql = "UPDATE documents SET
-                        title=?, client_id=?, lawyer_id=?, content=? , office_id = ?, notes=?
+                        title=?, client_id=?, lawyer_id=?, content=? , office_id = ?,notes=?
                         WHERE document_id=?";
                 $stmt = $conn->prepare($sql);
-                $stmt->execute([$title, $client_id, $lawyer_id, $content, $office_id, $notes, $document_id]);
+                $stmt->execute([$title, $client_id, $lawyer_id, $content, $office_id,$notes, $document_id]);
 
                 // تحديث الملف المرفق إذا تم تحميل ملف جديد
                 if ($_FILES['new_attachment']['error'] === UPLOAD_ERR_OK) {

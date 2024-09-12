@@ -17,7 +17,6 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role']) && $_SESSION['role']
         $lawyer_id = $_POST['lawyer_id_doc'];
         $case_id = $_POST['case_id_doc'];
         $office_id = $_POST['office_id_doc'];
-        $notes_for_doc = $_POST['notes_for_doc'];
         $document_title = $_POST['document_title'];
 
         // Check if required fields are empty
@@ -47,11 +46,11 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role']) && $_SESSION['role']
             }
 
             // Prepare SQL statement
-            $sql  = "INSERT INTO documents(title, content, client_id, lawyer_id, case_id, attachments, office_id, notes) VALUES(?,?,?,?,?, ?, ?, ?)";
+            $sql  = "INSERT INTO documents(title, content, client_id, lawyer_id, case_id, attachments, office_id) VALUES(?,?,?,?,?, ?, ?)";
             $stmt = $conn->prepare($sql);
 
             // Execute the statement
-            if ($stmt->execute([$document_title, $content, $client_id, $lawyer_id, $case_id, $attachments_name, $office_id, $notes])) {
+            if ($stmt->execute([$document_title, $content, $client_id, $lawyer_id, $case_id, $attachments_name, $office_id])) {
                 $sm = "New document saved successfully";
                 echo json_encode(array("success" => $sm));
                 exit;

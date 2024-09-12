@@ -74,6 +74,7 @@ if (!function_exists('get_adversaries_for_helper')) {
 
 if (!function_exists('getCases')) {
     function getCases($conn, $helper_id) {
+        //$sql1 = "SELECT name FROM cases";
         $sql = "SELECT DISTINCT c.case_id, c.case_title 
                 FROM cases c
                 LEFT JOIN sessions s ON c.case_id = s.case_id

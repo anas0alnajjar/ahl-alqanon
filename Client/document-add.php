@@ -19,6 +19,7 @@
         $user_id = $_SESSION['user_id'];
         $OfficeId = getOfficeId($conn, $user_id);
         $lawyer_id = getLawyerId($user_id, $conn);
+        
 
         $content = '';
         $lawer_name = '';
@@ -154,7 +155,7 @@
         <div class="row">
             <div class="col-md-12 mb-3">
                 <label class="form-label">لأي قضية</label>
-                <select style="" class="form-select" name="case_id" required>
+                <select style="" class="form-select" name="case_id" >
                     <option value="">اختر القضية...</option>
                     <?php
                     if (!empty($user_id)) {
@@ -191,6 +192,10 @@
         </div>
 
         <textarea id="hiddenTextarea" style="display:none;"></textarea>
+        <div class="mt-3 mb-3">
+            <label for="form-label mb-2 mt-2">الملاحظات</label>
+            <textarea id="notes" name="notes" class="form-control"></textarea>
+        </div>
 
         <div class="row">
             <div class="col-md-6 mb-3">

@@ -25,8 +25,8 @@ error_reporting(E_ALL);
 $sName = "localhost";
 $uName = "root";
 $pass = "";
-$db_name = "ahl_alqhanon";
-$port = 3666;
+$db_name = "ahl-alqanon-db"; // في البداية كانت "ahl_alqhanon"
+$port = 3306; // في البداية كانت 3666
 
 try {
     $conn = new PDO("mysql:host=$sName;port=$port;dbname=$db_name", $uName, $pass);

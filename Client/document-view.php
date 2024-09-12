@@ -158,6 +158,13 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
                     <?=$document['content']?>
                 </div>
             </div>
+            <?php if (!empty($document['notes'])): ?>
+                                <hr>
+                                <div class="mb-3">
+                                    <label class="form-label">الملاحظات:</label>
+                                    <br><?= $document['notes'] ?>
+                                </div>
+                            <?php endif; ?>
             <a href="#" id="download-pdf" class="btn btn-info btn_print">تحميل الوثيقة</a>
         </form>
     </div>

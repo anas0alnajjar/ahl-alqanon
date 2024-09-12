@@ -23,7 +23,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             $document_title = $_POST['document_title'];
             $office_id = $_POST['office_id'];
             $notes = $_POST['notes'];
-            $data = 'content='.$content.'&document_title='.$document_title.'&lawer_name='.$lawer_name.'&client_name='.$client_name.'&office_id='.$office_id;
+            $data = 'content='.$content.'&document_title='.$document_title.'&lawer_name='.$lawer_name.'&client_name='.$client_name.'&office_id='.$office_id.'&notes='.$notes;
             
             if (empty($content) || empty($lawer_name) || empty($client_name) || empty($document_title)) {
                 $em = "جميع الحقول مطلوبة، ما عدا الملف، رجاءً قم بملئها";

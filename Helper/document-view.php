@@ -154,11 +154,19 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
                 <div class="document-title"><?=$document['title']?></div>
                 <?=$document['content']?>
             </div>
+            <?php if (!empty($document['notes'])): ?>
+                                <hr>
+                                <div class="mb-3">
+                                    <label class="form-label">الملاحظات:</label>
+                                    <br><?= $document['notes'] ?>
+                                </div>
+                            <?php endif; ?>
             <div style="display:none;">
                 <div style="text-align: justify; overflow-x: auto; width:100%; scrollbar-width: thin;" id="editor" class="mt-3">
                     <div class="document-title"><?=$document['title']?></div>
                     <?=$document['content']?>
                 </div>
+
             </div>
             <a href="#" id="download-pdf" class="btn btn-info btn_print">تحميل الوثيقة</a>
         </form>

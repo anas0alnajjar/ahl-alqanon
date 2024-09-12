@@ -370,7 +370,7 @@ a {
             <a href="documents.php">  
               <div class="card-body">
                     <i class="fa fa-file-text card-icon"></i>
-                    <h5 class="card-title">الوثائق</h5>
+                    <h5 class="card-title"><?=__('documents')?></h5>
                     <span class="badge bg-info rounded-pill">
                         <i class="fas fa-file"></i> <?=$tableCounts['documents']?> وثائق/عقود
                     </span>

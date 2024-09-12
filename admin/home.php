@@ -12,7 +12,11 @@ if (isset($_SESSION['admin_id']) &&
             'todos' => array('label' => 'المهام', 'icon' => 'fa-tasks', 'url' => 'tasks.php'),
             'message' => array('label' => 'الرسائل', 'icon' => 'fa-envelope', 'url' => 'message.php'),
             'ask_join' => array('label' => 'طلبات الانضمام', 'icon' => 'fa-comments', 'url' => 'requests.php'),
+            'languages' => array('label' => 'languages', 'icon' => 'fa-comments', 'url' => 'requests.php'),
         );
+        
+
+
         
 
         include "../DB_connection.php";
@@ -198,7 +202,7 @@ a {
                 <a href="documents.php">  
                   <div class="card-body">
                         <i class="fa fa-file-text card-icon"></i>
-                        <h5 class="card-title">الوثائق</h5>
+                        <h5 class="card-title"><?= __('documents') ?></h5>
                         <span class="badge bg-info rounded-pill">
                             <i class="fas fa-file"></i> <?=$tableCounts['documents']?> وثائق/عقود
                         </span>
@@ -211,7 +215,7 @@ a {
                 <a href="tasks.php">  
                   <div class="card-body">
                         <i class="fa fa-tasks card-icon"></i>
-                        <h5 class="card-title">المهام</h5>
+                        <h5 class="card-title"><?=__('task')?></h5>
                         <span class="badge bg-success rounded-pill">
                             <i class="fas fa-tasks"></i> <?=$tableCounts['todos']?> مهمة/إشعار
                         </span>
@@ -261,6 +265,19 @@ a {
                   <div class="card-body">
                         <i class="fas fa-sign-out-alt card-icon"></i>
                         <h5 class="card-title">تسجيل الخروج</h5>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card cases-card">
+                <a href="languages.php">
+                    <div class="card-body">
+                    <i class="fa fa-language card-icon"></i>
+                        <h5 class="card-title"><?= __('language') ?></h5>
+                        <span class="badge bg-primary rounded-pill">
+                        <i class="fa fa-language"></i></i> <?=$tableCounts['languages']?> <?= __('languages') ?>
+                        </span>
                     </div>
                     </a>
                 </div>
