@@ -257,7 +257,7 @@ a {
             <a href="../logout.php">  
               <div class="card-body">
                     <i class="fas fa-sign-out-alt card-icon"></i>
-                    <h5 class="card-title"><?= __('profile')?></h5>
+                    <h5 class="card-title"><?= __('log_out')?></h5>
                 </div>
                 </a>
             </div>
