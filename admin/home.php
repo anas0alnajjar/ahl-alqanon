@@ -176,9 +176,9 @@ a {
                 <a href="clients.php">  
                   <div class="card-body">
                         <i class="fa fa-users card-icon"></i>
-                        <h5 class="card-title ">الموكلين</h5>
+                        <h5 class="card-title "><?= __('clients') ?></h5>
                         <span class="badge bg-primary rounded-pill">
-                            <i class="fas fa-user"></i> <?=$tableCounts['clients']?> عميل
+                            <i class="fas fa-user"></i> <?=$tableCounts['clients']?> <?= __('clients') ?>
                         </span>
                     </div>
                     </a>
@@ -189,9 +189,9 @@ a {
                 <a href="lawyers.php">
                     <div class="card-body">
                         <i class="fas fa-user-tie card-icon"></i>
-                        <h5 class="card-title"><?= __('lawyer') ?></h5>
+                        <h5 class="card-title"><?= __('lawyers') ?></h5>
                         <span class="badge bg-secondary rounded-pill">
-                            <i class="fas fa-user-tie"></i> <?=$tableCounts['lawyer']?> محامين
+                            <i class="fas fa-user-tie"></i> <?=$tableCounts['lawyer']?> <?= __('lawyer') ?>
                         </span>
                     </div>
                     </a>
@@ -204,7 +204,7 @@ a {
                         <i class="fa fa-file-text card-icon"></i>
                         <h5 class="card-title"><?= __('documents') ?></h5>
                         <span class="badge bg-info rounded-pill">
-                            <i class="fas fa-file"></i> <?=$tableCounts['documents']?> وثائق/عقود
+                            <i class="fas fa-file"></i> <?=$tableCounts['documents']?> <?= __('documents') ?>
                         </span>
                     </div>
                     </a>
@@ -215,9 +215,9 @@ a {
                 <a href="tasks.php">  
                   <div class="card-body">
                         <i class="fa fa-tasks card-icon"></i>
-                        <h5 class="card-title"><?=__('task')?></h5>
+                        <h5 class="card-title"><?=__('tasks')?></h5>
                         <span class="badge bg-success rounded-pill">
-                            <i class="fas fa-tasks"></i> <?=$tableCounts['todos']?> مهمة/إشعار
+                            <i class="fas fa-tasks"></i> <?=$tableCounts['todos']?> <?= __('task') ?>
                         </span>
                     </div>
                     </a>
@@ -228,9 +228,9 @@ a {
                 <a href="message.php">
                     <div class="card-body">
                         <i class="fa fa-envelope card-icon"></i>
-                        <h5 class="card-title">الرسائل</h5>
+                        <h5 class="card-title"><?= __('messages') ?></h5>
                         <span class="badge bg-warning rounded-pill">
-                            <i class="fas fa-envelope"></i> <?=$tableCounts['message']?> رسالة 
+                            <i class="fas fa-envelope"></i> <?=$tableCounts['message']?> <?= __('messages') ?>
                         </span>
                     </div>
                     </a>
@@ -241,9 +241,9 @@ a {
                 <a href="requests.php">  
                   <div class="card-body">
                         <i class="fas fa-comments card-icon"></i>
-                        <h5 class="card-title">طلبات الانضمام</h5>
+                        <h5 class="card-title"><?= __('requests') ?></h5>
                         <span class="badge bg-danger rounded-pill">
-                            <i class="fas fa-user-plus"></i> <?=$tableCounts['ask_join']?> طلبات انضمام
+                            <i class="fas fa-user-plus"></i> <?=$tableCounts['ask_join']?> <?= __('requests') ?>
                         </span>
                     </div>
                     </a>
@@ -254,7 +254,7 @@ a {
                 <a href="settings.php">  
                   <div class="card-body">
                         <i class="fa fa-cogs card-icon"></i>
-                        <h5 class="card-title">الاعدادات</h5>
+                        <h5 class="card-title"><?= __('setting') ?></h5>
                     </div>
                     </a>
                 </div>
@@ -264,7 +264,7 @@ a {
                 <a href="../logout.php">  
                   <div class="card-body">
                         <i class="fas fa-sign-out-alt card-icon"></i>
-                        <h5 class="card-title">تسجيل الخروج</h5>
+                        <h5 class="card-title"><?= __('log_out') ?></h5>
                     </div>
                     </a>
                 </div>
