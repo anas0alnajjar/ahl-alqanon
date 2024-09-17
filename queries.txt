@@ -1,0 +1,4 @@
+استعلام إنشاء جدول packages
+CREATE TABLE `ahl-alqanon-db`.`packages` (`id` INT(255) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `description` TEXT NULL , `status` INT(11) NOT NULL DEFAULT '1' , `duration` INT(11) NOT NULL , `category` INT(11) NOT NULL , `num_cases` INT(255) NOT NULL , `num_clients` INT(11) NOT NULL , `num_helpers` INT(11) NOT NULL , `num_messages` INT(11) NOT NULL , `num_documents` INT(11) NOT NULL , `num_tasks` INT(11) NOT NULL , `num_sessions` INT(11) NOT NULL , `num_events` INT(11) NOT NULL , `num_lawyers` INT(11) NULL , `num_offices` INT(11) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+إضافة عمود السعر على جدول packages
+ALTER TABLE `packages` ADD `price` DOUBLE NOT NULL AFTER `duration`;
