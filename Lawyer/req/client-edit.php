@@ -33,22 +33,22 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['role'])) {
             $phone = $_POST['phone'];
             $client_id = $_POST['client_id'];
 
-            // Safely access optional fields
-            $father_name = isset($_POST['father_name']) ? $_POST['father_name'] : '';
-            $grandfather_name = isset($_POST['grandfather_name']) ? $_POST['grandfather_name'] : '';
-            $national_num = isset($_POST['national_num']) ? $_POST['national_num'] : '';
-            $alhi = isset($_POST['alhi']) ? $_POST['alhi'] : '';
-            $street_name = isset($_POST['street_name']) ? $_POST['street_name'] : '';
-            $num_build = isset($_POST['num_build']) ? $_POST['num_build'] : '';
-            $num_unit = isset($_POST['num_unit']) ? $_POST['num_unit'] : '';
-            $zip_code = isset($_POST['zip_code']) ? $_POST['zip_code'] : '';
-            $subnumber = isset($_POST['subnumber']) ? $_POST['subnumber'] : '';
+            $father_name = $_POST['father_name'];
+            $grandfather_name = $_POST['grandfather_name'];
+            $national_num = $_POST['national_num'];
+            $alhi = $_POST['alhi'];
+            $street_name = $_POST['street_name'];
+            $num_build = $_POST['num_build'];
+            $num_unit = $_POST['num_unit'];
+            $zip_code = $_POST['zip_code'];
+            $subnumber = $_POST['subnumber'];
             
-            $role_id = isset($_POST['role_id']) ? $_POST['role_id'] : '';
-            $office_id = isset($_POST['office_id']) ? $_POST['office_id'] : '';
-            $client_passport = isset($_POST['client_passport']) ? $_POST['client_passport'] : '';
-            $stop_date = isset($_POST['stop_date']) ? $_POST['stop_date'] : '';
+            $role_id = $_POST['role_id'];
+            $office_id = $_POST['office_id'];
+            $client_passport = $_POST['client_passport'];
+            $stop_date = $_POST['stop_date'];
 
+            
             $receive_whatsupp = isset($_POST['receive_whatsupp']) ? 1 : 0;
             $receive_emails = isset($_POST['receive_emails']) ? 1 : 0;
             $stop_account = isset($_POST['stop']) ? 1 : 0;

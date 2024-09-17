@@ -15,30 +15,41 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Admin - Add language</title>
+            <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
-            <link rel="stylesheet" href="../css/style.css">
-            <link rel="icon" href="../img/<?= $setting['logo'] ?>">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+        <link href="../css/flag-icons.min.css" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="../css/style.css">
+
+
+        <link rel="icon" href="../img/<?= $setting['logo'] ?>">
+
+            
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
-
-
-
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+          
 
 
             <!-- تضمين ملفات SweetAlert2 JavaScript -->
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-            <link href="../css/bootstrap-datetimepicker.css?v2" rel="stylesheet" />
+            
 
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
-
+            
             <style>
                 * {
                     direction: rtl;
@@ -152,16 +163,16 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
                         </div>
                     <?php } ?>
                     <div class="d-flex flex-wrap gap-3 mb-2">
-                    <div class="col-md-4 mb-1">
-                        <label for="language-name-id" class="form-label">اسم اللغة</label>
-                        <input type="text" class="form-control "  name="language_name" id="language-name-id">
-                        <div id="name-error" class="error-message"></div>
-                    </div>
-                    <div class="col-md-4 mb-1">
-                        <label for="language-code-id" class="form-label">رمز اللغة</label>
-                        <input type="text" class="form-control"   name="language_code" id="language-code-id">
-                        <div id="code-error" class="error-message"></div>
-                    </div>
+                        <div class="col-md-4 mb-1">
+                            <label for="language-name-id" class="form-label">اسم اللغة</label>
+                            <input type="text" class="form-control " name="language_name" id="language-name-id">
+                            <div id="name-error" class="error-message"></div>
+                        </div>
+                        <div class="col-md-4 mb-1">
+                            <label for="language-code-id" class="form-label">رمز اللغة</label>
+                            <input type="text" class="form-control" name="language_code" id="language-code-id">
+                            <div id="code-error" class="error-message"></div>
+                        </div>
                     </div>
                     <input type="hidden" name="is_default" value="0">
                     <div class="col-md-6 mb-3">
@@ -170,12 +181,15 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
                             <label for="is_default_id" class="form-label mb-0 me-2">تعيين كلغة افتراضية</label>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-6 mb-3">
                         <input type="submit" class="btn btn-primary" value="حفظ">
                     </div>
 
                 </form>
+               
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        
                 <script>
                     var form = document.getElementById("add-language-form");
                     form.addEventListener("submit", function(event) {
@@ -200,9 +214,9 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
                     var checkbox = document.getElementById('is_default_id');
                     checkbox.addEventListener('change', function() {
                         if (this.checked) {
-                            this.value = "1"; 
+                            this.value = "1";
                         } else {
-                            this.value = "0"; 
+                            this.value = "0";
                         }
                     });
                 </script>

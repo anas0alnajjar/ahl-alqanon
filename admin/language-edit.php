@@ -175,15 +175,17 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
                         </div>
                     <?php } ?>
 
-                    <div class="col-md-6 mb-3">
+                    <div class="d-flex flex-wrap gap-3 mb-2">
+                    <div class="col-md-4 mb-1">
                         <label for="language-name-id" class="form-label">اسم اللغة</label>
-                        <input type="text" class="form-control" name="language_name" id="language-name-id" value="<?=$language['name']?>" >
+                        <input type="text" class="form-control "  name="language_name" id="language-name-id" value="<?=$language['name']?>">
                         <div id="name-error" class="error-message"></div>
                     </div>
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-4 mb-1">
                         <label for="language-code-id" class="form-label">رمز اللغة</label>
-                        <input type="text" class="form-control" name="language_code" id="language-code-id" value="<?=$language['code']?>" >
+                        <input type="text" class="form-control"   name="language_code" id="language-code-id" value="<?=$language['code']?>">
                         <div id="code-error" class="error-message"></div>
+                    </div>
                     </div>
                     <input type="hidden" name="is_default" value="0">
                     <div class="col-md-6 mb-3">
@@ -200,6 +202,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
                     </div>
 
                 </form>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
                 <script>
     var form = document.getElementById("edit-language-form");
     form.addEventListener("submit", function(event) {

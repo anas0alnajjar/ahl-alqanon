@@ -39,6 +39,8 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role']) && $_SESSION['role'
 
     $stmt->execute();
     $result = $stmt->fetchAll();
+    //var_dump($result);
+    //exit;
     if (empty($search)) {
         $total_records = $conn->query("SELECT COUNT(*) FROM lawyer")->fetchColumn();
     } else {

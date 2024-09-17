@@ -31,7 +31,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['role'])) {
             $stmt = $conn->query($sql);
             $language_id = $stmt->fetchColumn();
             
-            echo $language_id;
+            
             
             
             if (check_Keys($conn)) {

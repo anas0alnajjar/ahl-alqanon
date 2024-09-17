@@ -15,6 +15,10 @@ class ComposerStaticInit62e10e6c8df9afc192311b196c75bb33
         array (
             'User\\PublicHtmlNew\\' => 19,
         ),
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+        ),
         'P' => 
         array (
             'Psr\\SimpleCache\\' => 16,
@@ -40,6 +44,10 @@ class ComposerStaticInit62e10e6c8df9afc192311b196c75bb33
         'User\\PublicHtmlNew\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
         'Psr\\SimpleCache\\' => 
         array (

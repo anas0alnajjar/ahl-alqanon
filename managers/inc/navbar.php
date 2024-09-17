@@ -156,14 +156,21 @@
                     </li>
                 <?php endif; ?>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navLinks">
+                <?php 
+                $sql = 'SELECT id,name FROM languages';
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $navlangs = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLanguages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa fa-language"></i> اللغة
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownLanguages">
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('ar')">العربية</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                    <?php foreach($navlangs as $navlang){?>
+                            <li><a class="dropdown-item nav-linlk"  href="#" onclick="changeLanguage('<?=$navlang['id']?>')"><?=$navlang['name']?></a></li>
+                      <?php  } ?>
+                        
                     </ul>
                 </li>
             </ul>

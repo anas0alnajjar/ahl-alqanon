@@ -234,9 +234,9 @@ a {
             <a href="clients.php">  
               <div class="card-body">
                     <i class="fa fa-users card-icon"></i>
-                    <h5 class="card-title "><?= __('clients') ?></h5>
+                    <h5 class="card-title ">الموكلين</h5>
                     <span class="badge bg-primary rounded-pill">
-                        <i class="fas fa-user"></i> <?=$tableCounts['clients']?> <?= __('clients') ?>
+                        <i class="fas fa-user"></i> <?=$tableCounts['clients']?> عميل
                     </span>
                 </div>
                 </a>
@@ -249,9 +249,9 @@ a {
             <a href="lawyers.php">
                 <div class="card-body">
                     <i class="fas fa-user-tie card-icon"></i>
-                    <h5 class="card-title"><?= __('lawyers') ?></h5>
+                    <h5 class="card-title">المحامين</h5>
                     <span class="badge bg-secondary rounded-pill">
-                        <i class="fas fa-user-tie"></i> <?=$tableCounts['lawyer']?> <?= __('lawyer') ?>
+                        <i class="fas fa-user-tie"></i> <?=$tableCounts['lawyer']?> محامين
                     </span>
                 </div>
                 </a>
@@ -264,9 +264,9 @@ a {
             <a href="documents.php">  
               <div class="card-body">
                     <i class="fa fa-file-text card-icon"></i>
-                    <h5 class="card-title"><?= __('documents') ?></h5>
+                    <h5 class="card-title">الوثائق</h5>
                     <span class="badge bg-info rounded-pill">
-                        <i class="fas fa-file"></i> <?=$tableCounts['documents']?> <?= __('documents') ?>
+                        <i class="fas fa-file"></i> <?=$tableCounts['documents']?> وثائق/عقود
                     </span>
                 </div>
                 </a>
@@ -279,9 +279,9 @@ a {
             <a href="tasks.php">  
               <div class="card-body">
                     <i class="fa fa-tasks card-icon"></i>
-                    <h5 class="card-title"><?= __('tasks') ?></h5>
+                    <h5 class="card-title">المهام</h5>
                     <span class="badge bg-success rounded-pill">
-                        <i class="fas fa-tasks"></i> <?=$tableCounts['todos']?> <?= __('task') ?>
+                        <i class="fas fa-tasks"></i> <?=$tableCounts['todos']?> مهمة/إشعار
                     </span>
                 </div>
                 </a>
@@ -294,9 +294,9 @@ a {
             <a href="message.php">
                 <div class="card-body">
                     <i class="fa fa-envelope card-icon"></i>
-                    <h5 class="card-title"><?= __('messages') ?></h5>
+                    <h5 class="card-title">الرسائل</h5>
                     <span class="badge bg-warning rounded-pill">
-                        <i class="fas fa-envelope"></i> <?=$tableCounts['message']?> <?= __('messages') ?> 
+                        <i class="fas fa-envelope"></i> <?=$tableCounts['message']?> رسالة 
                     </span>
                 </div>
                 </a>
@@ -308,7 +308,7 @@ a {
             <a id="office-info" href="#">
                 <div class="card-body">
                     <i class="fa fa-building  card-icon"></i>
-                    <h5 class="card-title"><?= __('office') ?></h5>
+                    <h5 class="card-title">المكتب</h5>
                 </div>
                 </a>
             </div>
@@ -319,9 +319,9 @@ a {
             <a href="requests.php">  
               <div class="card-body">
                     <i class="fas fa-comments card-icon"></i>
-                    <h5 class="card-title"><?= __('requests') ?></h5>
+                    <h5 class="card-title">طلبات الانضمام</h5>
                     <span class="badge bg-danger rounded-pill">
-                        <i class="fas fa-user-plus"></i> <?=$tableCounts['ask_join']?> <?= __('requests') ?>
+                        <i class="fas fa-user-plus"></i> <?=$tableCounts['ask_join']?> طلبات انضمام
                     </span>
                 </div>
                 </a>
@@ -333,7 +333,7 @@ a {
             <a href="manager-profile.php?manager_id=<?=$user_id?>">  
             <div class="card-body">
                     <i class="fa fa-user card-icon"></i>
-                    <h5 class="card-title"><?= __('profile') ?></h5>
+                    <h5 class="card-title">الملف الشخصي</h5>
                 </div>
                 </a>
             </div>
@@ -343,7 +343,7 @@ a {
             <a href="../logout.php">  
               <div class="card-body">
                     <i class="fas fa-sign-out-alt card-icon"></i>
-                    <h5 class="card-title"><?= __('log_out') ?></h5>
+                    <h5 class="card-title">تسجيل الخروج</h5>
                 </div>
                 </a>
             </div>

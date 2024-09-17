@@ -24,7 +24,7 @@ if (isset($_POST['language']) && isset($_SESSION['role']) && (isset($_SESSION['u
             $sql = "UPDATE lawyer SET language_id = ? WHERE lawyer_id = ?";
             break;
         case 'Managers':
-            $sql = "UPDATE managers_office SET lanuage_id = ? WHERE id = ?";
+            $sql = "UPDATE managers_office SET language_id = ? WHERE id = ?";
             break;
         default:
             echo 'دور غير معروف.';

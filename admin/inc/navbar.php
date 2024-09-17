@@ -41,6 +41,8 @@ $unread_count = $row['unread_count'];
                         <li><a class="dropdown-item nav-link" href="clients.php"><i class="fa fa-users"></i> الموكلين</a></li>
                         <li><a class="dropdown-item nav-link" href="lawyers.php"><i class="fa fa-user"></i> المحامين</a></li>
                         <li><a class="dropdown-item nav-link" href="helpers.php"><i class="fa fa-user-friends"></i> الإداريين</a></li>
+                        <li><a class="dropdown-item nav-link" href="languages.php"><i class="fa fa-language"></i> اللغات</a></li>
+                        <li><a class="dropdown-item nav-link" href="packages.php"><i class="fa-solid fa-box"></i>الباقات</a></li>
                         <li style="display:none;"><button id="chat_ai" class="dropdown-item nav-link"><i class="fa "></i> استشر الذكاء الصنعي</button></li>
                     </ul>
                 </li>
@@ -92,19 +94,19 @@ $unread_count = $row['unread_count'];
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navLinks">
-                <?php 
+            <?php 
                 $sql = 'SELECT id,name FROM languages';
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
-                $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                $navlangs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLanguages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa fa-language"></i> اللغة
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownLanguages">
-                        <?php foreach($results as $result){?>
-                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('<?=$result['id']?>')"><?=$result['name']?></a></li>;
+                    <?php foreach($navlangs as $navlang){?>
+                            <li><a class="dropdown-item nav-link"    href="#" role="button" onclick="changeLanguage('<?=$navlang['id']?>')"><?=$navlang['name']?></a></li>
                       <?php  } ?>
                         
                     </ul>

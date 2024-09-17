@@ -227,6 +227,9 @@ p {
         <li class="nav-item">
           <a class="nav-link" href="#about">من نحن</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link" href="packages.php">العروض والأسعار</a>
+        </li>
         <?php if ($setting['allow_joining']) : ?>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
